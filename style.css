@@ -1,21 +1,29 @@
 body{
     background-color: #fffbf7;
+    margin: 0;
 }
 
-h1{
+.main{
+  margin-top: 140px;
+  text-align: center;
+}
+
+.main h1{
     color: #104F55;
+    font-family: 'Alegreya', serif;
+    font-size: 60px;
+    font-weight: 900;
+    
 }
 
-h4{
+.main h4{
    color:  #46484c;
+   font-family: 'Slabo 27px', serif;;
 }
 
 .promocional{
     color:#8b8b8bcc;
 }
-
-
-
 
  .sub ,.boton{
   border-radius: 8px;
@@ -38,3 +46,87 @@ h4{
     padding: 6px 20px;
     margin-left: -10px;
   }
+
+  .header{
+    margin: 0px 20px;
+    font-size: 0;
+    height: 60px;
+    line-height: 45px;
+    font-family:sans-serif ;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: #fffbf7;
+    padding-bottom: 15px;
+  }
+
+  .header li{
+    display: inline;
+    color: #104F55;
+    margin-left: 30px;
+    font-family:sans-serif ;
+  }
+  .header li:hover{
+    color: #46484c;
+  }
+
+  .header > *{
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+  }
+
+  .header .logo{
+    width: 15%;
+  }
+  .header .navbar{
+    width:70%;
+    text-align: center;
+  }
+  .header .navbar ul{
+    padding: 0;
+    
+  }
+  .header .actions{
+    width: 15%;
+    text-align: right;
+  }
+
+  .publish{
+    padding-left: 10px;
+  }
+
+ .publish h3{
+  color: #104F55;
+  font-family: 'Alegreya', serif;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+ }
+
+ .publish >p{
+   color: #343434;
+   font-size: 16px;
+   line-height: 1.5;
+   margin-bottom: 20px;
+ }
+
+ .promo{
+   display: flex;
+   width: 70%;
+   margin: 100px auto;
+   margin-top: 100px;
+   align-items: center;
+ }
+
+ .promo .video{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-right: 20px;
+ }
+ .promo .video img{
+   width: 120px;
+   margin-top: 10px;
+ }
